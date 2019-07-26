@@ -101,7 +101,7 @@ describe "GIT" do
 
   it "14. From the add-img branch, what command do you run to pull down all the changes 
       from the add-img branch on the remote 'upstream'?" do
-    answer = ""
+    answer = "git pull upstream add-img"
     encoded_answer = "6c3209e77d80f4f76e692f6b7a9fb9be17068e3e"
     expect(encode(answer)).to eq(encoded_answer)
   end
