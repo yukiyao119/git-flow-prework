@@ -109,7 +109,7 @@ describe "GIT" do
 
 # describe "BRANCHING:" do
   it "15. What is the syntax for creating a new branch called 'style-image'?" do
-    answer = "?"
+    answer = "git branch style-image"
     encoded_answer = "a905f4cf88cdf57f8c406f2d5e7eb0acafe44c05"
     expect(encode(answer)).to eq(encoded_answer)
   end
